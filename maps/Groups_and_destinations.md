@@ -30,6 +30,8 @@ I visited:
 * portal.uni-koeln.de
 * www.uct.ac.za
 * cqu.edu.cn
+* google.com (three times)
+* www.vmware.com
 
 ---
 
@@ -37,7 +39,7 @@ I visited:
 
 I visited:
 
-* microsoft.com 
+* microsoft.com
 * state.gov
 * wikimedia.org
 * uwi.edu (University of the West Indies)
