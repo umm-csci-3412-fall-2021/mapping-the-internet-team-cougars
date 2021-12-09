@@ -46,3 +46,13 @@ We visited:
 - khanacademy.org
 - nyc.gov
 - tesla.com
+
+## Nick Gilbertson
+
+Visited:
+
+Vote.gov
+
+Yale.edu
+
+Yonsei.ac.kr
