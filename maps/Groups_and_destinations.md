@@ -27,6 +27,9 @@ I visited:
 * www.stpaul.gov
 * www.mineapolismn.gov
 * www.nist.gov
+* portal.uni-koeln.de
+* www.uct.ac.za
+* cqu.edu.cn
 
 ---
 
