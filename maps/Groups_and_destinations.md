@@ -16,6 +16,31 @@ We visited:
 * stuff.and.nonsense
 * etc.etc.etc.
 
+---
+
+## Mystery, Inc.
+
+Mystery, Inc. is Joe Walbran.
+
+I visited:
+
+* www.stpaul.gov
+* www.mineapolismn.gov
+* www.nist.gov
+* portal.uni-koeln.de
+* www.uct.ac.za
+* cqu.edu.cn
+
+---
+
+## Kyle Day
+
+I visited:
+
+* microsoft.com 
+* state.gov
+* wikimedia.org
+* uwi.edu (University of the West Indies)
 
 ## Erik Rauer
 
@@ -47,6 +72,7 @@ Vote.gov
 Yale.edu
 
 Yonsei.ac.kr
+<<<<<<< HEAD
 
 ## Dante and Josh
 
@@ -56,3 +82,5 @@ We visited:
 * spotify.com
 * alaska.gov
 * gla.ac.uk
+=======
+>>>>>>> 65f2c84fc37f3086c672af6fd68fbdaac89f188b
