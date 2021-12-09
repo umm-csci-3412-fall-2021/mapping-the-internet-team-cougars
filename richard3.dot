@@ -1,0 +1,23 @@
+digraph network {
+
+// traceroute to spc.noaa.gov (140.172.17.21), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "bundle-ether1.4076.core1.eqch.net.internet2.edu (162.252.70.189)";
+"bundle-ether1.4076.core1.eqch.net.internet2.edu (162.252.70.189)" -> "et-4-1-2.831.brtr.denv.nwave.noaa.gov (137.75.72.130)";
+"et-4-1-2.831.brtr.denv.nwave.noaa.gov (137.75.72.130)" -> "137.75.72.11 (137.75.72.11)";
+"137.75.72.11 (137.75.72.11)" -> "et-4-0-5.2.rtr.denv15th.nwave.noaa.gov (140.172.70.143)";
+"et-4-0-5.2.rtr.denv15th.nwave.noaa.gov (140.172.70.143)" -> "irb.3903.rtr3.denv.nwave.noaa.gov (137.75.72.12)";
+"irb.3903.rtr3.denv.nwave.noaa.gov (137.75.72.12)" -> "et-4-0-5.2.rtr.denv15th.nwave.noaa.gov (140.172.70.143)";
+"et-4-0-5.2.rtr.denv15th.nwave.noaa.gov (140.172.70.143)" -> "lo-0.1.rtr.boul.nwave.noaa.gov (140.172.112.5)";
+"lo-0.1.rtr.boul.nwave.noaa.gov (140.172.112.5)" -> "irb.715.cosw01.boul01.nwave.noaa.gov (137.75.73.131)";
+"irb.715.cosw01.boul01.nwave.noaa.gov (137.75.73.131)" -> "spc.noaa.gov (140.172.17.21)";
+}

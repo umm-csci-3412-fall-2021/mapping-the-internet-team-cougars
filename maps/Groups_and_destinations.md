@@ -46,4 +46,3 @@ We visited:
 - khanacademy.org
 - nyc.gov
 - tesla.com
-
