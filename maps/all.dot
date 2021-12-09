@@ -46,7 +46,6 @@ digraph network {
 "ae31.glasss-sbr1.ja.net (146.97.33.54)" -> "146.97.154.2 (146.97.154.2)";
 "146.97.154.2 (146.97.154.2)" -> "gla.ac.uk (130.209.16.93)";
 
-
 // traceroute to apple.com (17.253.144.10), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
@@ -59,7 +58,6 @@ digraph network {
 "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "17.1.137.4 (17.1.137.4)";
 "17.1.137.4 (17.1.137.4)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
 "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "apple.com (17.253.144.10)";
-
 
 // traceroute to steam.com (43.129.23.233), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
@@ -107,7 +105,6 @@ digraph network {
 "172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
 "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
 "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "linkedin.com (13.107.42.14)";
-
 
 // traceroute to info-link.net (65.122.208.50), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
@@ -171,7 +168,6 @@ digraph network {
 "216.239.47.129 (216.239.47.129)" -> "108.170.244.1 (108.170.244.1)";
 "108.170.244.1 (108.170.244.1)" -> "25.224.186.35.bc.googleusercontent.com (35.186.224.25)";
 "25.224.186.35.bc.googleusercontent.com (35.186.224.25)" -> "spotify.com (35.186.224.25)";
-
 
 // traceroute to amazon.com (205.251.242.103), 60 hops max, 60 byte packets
 "Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
@@ -282,7 +278,6 @@ digraph network {
 "216.105.38.250 (216.105.38.250)" -> "216.105.38.254 (216.105.38.254)";
 "216.105.38.254 (216.105.38.254)" -> "secureprojects.sourceforge.net (216.105.38.11)";
 "secureprojects.sourceforge.net (216.105.38.11)" -> "linuxcommand.org (216.105.38.11)";
-
 
 // traceroute to southpole.aq (173.254.29.24), 60 hops max, 60 byte packets
 "Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
@@ -408,7 +403,6 @@ digraph network {
 "200-63-157-205.speedy.com.ar (200.63.157.205)" -> "62.254.33.186.in-addr.arpa (186.33.254.62)";
 "62.254.33.186.in-addr.arpa (186.33.254.62)" -> "41.254.33.186.in-addr.arpa (186.33.254.41)";
 "41.254.33.186.in-addr.arpa (186.33.254.41)" -> "argentina.travel (181.209.22.104)";
-
 
 // traceroute to srt.umn.edu (184.107.80.122), 60 hops max, 60 byte packets
 "Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
@@ -598,7 +592,6 @@ digraph network {
 "ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)" -> "ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)";
 "ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)" -> "ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)";
 "ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)" -> "therichardshouse.com (107.180.41.147)";
-
 
 // traceroute to reddit.com (151.101.1.140), 60 hops max, 60 byte packets
 "Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
@@ -887,7 +880,6 @@ digraph network {
 "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "twitter-pni-a.wiscnet.net (205.213.119.46)";
 "twitter-pni-a.wiscnet.net (205.213.119.46)" -> "twitter.com (104.244.42.193)";
 
-
 // traceroute to www.minneapolismn.gov (54.192.58.56), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
@@ -926,7 +918,6 @@ digraph network {
 "infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
 "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
 "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "www.nist.gov (54.209.142.109)";
-
 
 // traceroute to portal.uni-koeln.de (134.95.81.52), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
@@ -998,7 +989,6 @@ digraph network {
 "202.202.216.2 (202.202.216.2)" -> "202.202.216.2 (202.202.216.2)";
 "202.202.216.2 (202.202.216.2)" -> "cqu.edu.cn (202.202.2.6)";
 
-
 // traceroute to google.com (142.250.191.110), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
@@ -1055,7 +1045,6 @@ digraph network {
 "172.25.0.230 (172.25.0.230)" -> "telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)";
 "telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
 "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "www.vmware.com (184.84.218.46)";
-
 
 // traceroute to facebook.com (157.240.26.35), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
@@ -1167,7 +1156,6 @@ digraph network {
 "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
 "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "fandom.com (151.101.192.194)";
 
-
 // traceroute to microsoft.com (40.112.72.205), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
@@ -1238,6 +1226,64 @@ digraph network {
 "208.131.167.61 (208.131.167.61)" -> "208.131.167.62 (208.131.167.62)";
 "208.131.167.62 (208.131.167.62)" -> "uwi.edu (196.2.1.162)";
 
+// traceroute to usajobs.gov (184.87.148.104), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "usajobs.gov (184.87.148.104)";
+
+// traceroute to savethefrogs.com (157.245.89.238), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "nyk-bb1-link.ip.twelve99.net (80.91.246.163)";
+"nyk-bb1-link.ip.twelve99.net (80.91.246.163)" -> "savethefrogs.com (157.245.89.238)";
+
+// traceroute to thereviewmirror.org (162.0.235.186), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)";
+"et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)" -> "ip4.gtt.net (76.74.8.130)";
+"ip4.gtt.net (76.74.8.130)" -> "ip4.gtt.net (76.74.8.130)";
+"ip4.gtt.net (76.74.8.130)" -> "thereviewmirror.org (162.0.235.186)";
+
+// traceroute to tulasu.com (185.68.16.118), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "et-5-1-5-106.cr1-min1.ip4.gtt.net (209.120.155.197)";
+"et-5-1-5-106.cr1-min1.ip4.gtt.net (209.120.155.197)" -> "et-5-1-5-106.cr1-min1.ip4.gtt.net (209.120.155.197)";
+"et-5-1-5-106.cr1-min1.ip4.gtt.net (209.120.155.197)" -> "ip4.gtt.net (154.14.71.102)";
+"ip4.gtt.net (154.14.71.102)" -> "ip4.gtt.net (154.14.71.102)";
+"ip4.gtt.net (154.14.71.102)" -> "tulasu.com (185.68.16.118)";
 
 // traceroute to google.com (142.250.191.206), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
@@ -1377,7 +1423,6 @@ digraph network {
 "ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)" -> "jfk2-edge-03.inet.qwest.net (67.14.45.222)";
 "jfk2-edge-03.inet.qwest.net (67.14.45.222)" -> "ci.morris.mn.us (192.252.154.10)";
 
-
 // traceroute to wikipedia.org (208.80.153.224), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
@@ -1452,7 +1497,6 @@ digraph network {
 "ae37.cr4-was1.ip4.gtt.net (213.254.214.158)" -> "ae37.cr4-was1.ip4.gtt.net (213.254.214.158)";
 "ae37.cr4-was1.ip4.gtt.net (213.254.214.158)" -> "icann.org (192.0.43.7)";
 
-
 // traceroute to yale.edu (151.101.194.133), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
@@ -1501,7 +1545,6 @@ digraph network {
 "1.208.1.230 (1.208.1.230)" -> "210.98.171.202 (210.98.171.202)";
 "210.98.171.202 (210.98.171.202)" -> "yonsei.ac.kr (165.132.13.38)";
 
-
 // traceroute to walmart.com (161.170.232.170), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
@@ -1520,7 +1563,6 @@ digraph network {
 "ae4.mpr2.den1.us.zip.zayo.com (64.125.24.85)" -> "216.200.155.91.IPYX-145674-ZYO.zip.zayo.com (216.200.155.91)";
 "216.200.155.91.IPYX-145674-ZYO.zip.zayo.com (216.200.155.91)" -> "walmart.com (161.170.232.170)";
 
-
 // traceroute to vote.org (172.66.41.16), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
@@ -1532,7 +1574,6 @@ digraph network {
 "172.25.0.230 (172.25.0.230)" -> "172.25.0.230 (172.25.0.230)";
 "172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
 "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "vote.org (172.66.41.16)";
-
 
 // traceroute to spc.noaa.gov (140.172.17.21), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
@@ -1555,7 +1596,6 @@ digraph network {
 "lo-0.1.rtr.boul.nwave.noaa.gov (140.172.112.5)" -> "irb.715.cosw01.boul01.nwave.noaa.gov (137.75.73.131)";
 "irb.715.cosw01.boul01.nwave.noaa.gov (137.75.73.131)" -> "spc.noaa.gov (140.172.17.21)";
 
-
 // traceroute to ox.ac.uk (151.101.66.216), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
@@ -1568,7 +1608,6 @@ digraph network {
 "172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
 "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
 "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "ox.ac.uk (151.101.66.216)";
-
 
 // traceroute to morristheatre.net (192.252.144.35), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
@@ -1589,7 +1628,6 @@ digraph network {
 "jfk2-edge-03.inet.qwest.net (67.14.45.222)" -> "bst-pbrr-02.inet.qwest.net (67.14.30.150)";
 "bst-pbrr-02.inet.qwest.net (67.14.30.150)" -> "morristheatre.net (192.252.144.35)";
 
-
 // traceroute to canvas.umn.edu (52.207.22.162), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
@@ -1602,7 +1640,6 @@ digraph network {
 "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
 "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
 "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "canvas.umn.edu (52.207.22.162)";
-
 
 // traceroute to whitehouse.gov (104.113.18.91), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
@@ -1677,7 +1714,6 @@ digraph network {
 "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
 "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "amazon.com (176.32.103.205)";
 
-
 // traceroute to artisan-jp.com (1.33.191.138), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
 "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
@@ -1730,7 +1766,6 @@ digraph network {
 "172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
 "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
 "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "ea.com (184.84.219.43)";
-
 
 // traceroute to tesla.com (199.66.11.62), 60 hops max, 60 byte packets
 "Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
