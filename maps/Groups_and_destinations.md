@@ -40,12 +40,24 @@ I visited:
 
 ## Kyle Day
 
-I visited:
+To make my first dot file, I visited:
 
 * microsoft.com
 * state.gov
 * wikimedia.org
 * uwi.edu (University of the West Indies)
+
+To make my second dot file, I visited:
+
+* facebook.com
+* instagram.com
+* un.org
+* who.int
+* gov.am
+* cia.gov
+* fandom.com
+
+---
 
 ## Erik Rauer
 
