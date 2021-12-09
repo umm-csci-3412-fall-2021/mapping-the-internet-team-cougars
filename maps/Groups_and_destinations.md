@@ -27,3 +27,13 @@ I visited:
 * mn.gov
 * linuxcommand.org
 * visitberlin.de
+
+## Team Blake and Zeke
+
+We visited:
+- artisan-jp.com
+- aari.aq
+- ea.com
+- khanacademy.org
+- nyc.gov
+- tesla.com
