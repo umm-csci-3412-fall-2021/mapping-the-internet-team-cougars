@@ -27,3 +27,11 @@ I visited:
 * mn.gov
 * linuxcommand.org
 * visitberlin.de
+
+## Josh and Dante
+ 
+ We visited:
+ 
+ * info-link.net
+ * pandora.com
+ * spotify.com
