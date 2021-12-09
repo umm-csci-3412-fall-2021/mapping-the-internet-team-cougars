@@ -16,19 +16,6 @@ We visited:
 * stuff.and.nonsense
 * etc.etc.etc.
 
----
-
-## Mystery, Inc.
-
-Mystery, Inc. is Joe Walbran.
-
-I visited:
-
-* www.stpaul.gov
-* www.mineapolismn.gov
-* www.nist.gov
-
----
 
 ## Erik Rauer
 
@@ -41,12 +28,12 @@ I visited:
 * linuxcommand.org
 * visitberlin.de
 
----
+## Team Blake and Zeke
 
-## Josh and Dante
-
- We visited:
-
- * info-link.net
- * pandora.com
- * spotify.com
+We visited:
+- artisan-jp.com
+- aari.aq
+- ea.com
+- khanacademy.org
+- nyc.gov
+- tesla.com
