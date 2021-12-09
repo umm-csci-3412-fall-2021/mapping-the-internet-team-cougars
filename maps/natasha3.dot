@@ -1,0 +1,17 @@
+digraph network {
+
+// traceroute to thereviewmirror.org (162.0.235.186), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)";
+"et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)" -> "ip4.gtt.net (76.74.8.130)";
+"ip4.gtt.net (76.74.8.130)" -> "ip4.gtt.net (76.74.8.130)";
+"ip4.gtt.net (76.74.8.130)" -> "thereviewmirror.org (162.0.235.186)";
+}
