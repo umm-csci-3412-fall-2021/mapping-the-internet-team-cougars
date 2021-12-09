@@ -1,0 +1,21 @@
+digraph network {
+
+// traceroute to morristheatre.net (192.252.144.35), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "jfk2-edge-03.inet.qwest.net (67.14.45.222)";
+"jfk2-edge-03.inet.qwest.net (67.14.45.222)" -> "ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)";
+"ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)" -> "jfk2-edge-03.inet.qwest.net (67.14.45.222)";
+"jfk2-edge-03.inet.qwest.net (67.14.45.222)" -> "bst-pbrr-02.inet.qwest.net (67.14.30.150)";
+"bst-pbrr-02.inet.qwest.net (67.14.30.150)" -> "morristheatre.net (192.252.144.35)";
+}
