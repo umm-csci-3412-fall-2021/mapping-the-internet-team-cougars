@@ -47,3 +47,12 @@ Vote.gov
 Yale.edu
 
 Yonsei.ac.kr
+
+## Dante and Josh
+
+We visited:
+* info-link.net
+* pandora.com
+* spotify.com
+* alaska.gov
+* gla.ac.uk
