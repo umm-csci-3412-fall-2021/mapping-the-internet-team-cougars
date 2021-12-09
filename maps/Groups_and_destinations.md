@@ -16,6 +16,33 @@ We visited:
 * stuff.and.nonsense
 * etc.etc.etc.
 
+---
+
+## Mystery, Inc.
+
+Mystery, Inc. is Joe Walbran.
+
+I visited:
+
+* www.stpaul.gov
+* www.mineapolismn.gov
+* www.nist.gov
+* portal.uni-koeln.de
+* www.uct.ac.za
+* cqu.edu.cn
+* google.com (three times)
+* www.vmware.com
+
+---
+
+## Kyle Day
+
+I visited:
+
+* microsoft.com
+* state.gov
+* wikimedia.org
+* uwi.edu (University of the West Indies)
 
 ## Erik Rauer
 
@@ -37,3 +64,13 @@ We visited:
 - khanacademy.org
 - nyc.gov
 - tesla.com
+
+## Nick Gilbertson
+
+Visited:
+
+Vote.gov
+
+Yale.edu
+
+Yonsei.ac.kr
