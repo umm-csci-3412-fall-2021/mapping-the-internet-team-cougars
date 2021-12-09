@@ -33,6 +33,15 @@ I visited:
 
 ---
 
+## Kyle Day
+
+I visited:
+
+* microsoft.com 
+* state.gov
+* wikimedia.org
+* uwi.edu (University of the West Indies)
+
 ## Erik Rauer
 
 I visited:
