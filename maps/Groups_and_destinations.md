@@ -15,3 +15,15 @@ We visited:
 * one.or.the.other
 * stuff.and.nonsense
 * etc.etc.etc.
+
+
+## Erik Rauer
+
+I visited:
+
+* google.com
+* amazon.com
+* google.de
+* mn.gov
+* linuxcommand.org
+* visitberlin.de
