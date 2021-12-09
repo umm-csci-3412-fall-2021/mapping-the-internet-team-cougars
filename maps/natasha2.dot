@@ -1,0 +1,17 @@
+digraph network {
+
+// traceroute to savethefrogs.com (157.245.89.238), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "nyk-bb1-link.ip.twelve99.net (80.91.246.163)";
+"nyk-bb1-link.ip.twelve99.net (80.91.246.163)" -> "savethefrogs.com (157.245.89.238)";
+}
