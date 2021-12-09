@@ -78,6 +78,20 @@ Yale.edu
 
 Yonsei.ac.kr
 
+<<<<<<< HEAD
+##Richard Lussier
+Visited:
+youtube.com
+amazon.com
+noaa.gov
+whitehouse.gov
+twitch.tv
+discord.com
+morristheatre.net
+ox.ac.uk
+walmart.com
+canvas.umn.edu
+=======
 ## Dante and Josh
 
 We visited:
@@ -88,3 +102,7 @@ We visited:
 * alaska.gov
 * gla.ac.uk
 * apple.com
+* steam.com
+* microsoft.com
+* linkedin.com
+>>>>>>> 826600cc1a211e4dba85c8c677f541213a530649
