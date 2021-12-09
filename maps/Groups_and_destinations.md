@@ -32,6 +32,9 @@ I visited:
 * cqu.edu.cn
 * google.com (three times)
 * www.vmware.com
+* wikipedia.org (three times)
+* gnu.org
+* icann.org
 
 ---
 
