@@ -15,3 +15,12 @@ We visited:
 * one.or.the.other
 * stuff.and.nonsense
 * etc.etc.etc.
+
+## Kyle ##
+
+I visited:
+
+* microsoft.com 
+* state.gov
+* wikimedia.org
+* uwi.edu (University of the West Indies)
