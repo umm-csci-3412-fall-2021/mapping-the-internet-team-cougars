@@ -32,17 +32,32 @@ I visited:
 * cqu.edu.cn
 * google.com (three times)
 * www.vmware.com
+* wikipedia.org (three times)
+* gnu.org
+* icann.org
 
 ---
 
 ## Kyle Day
 
-I visited:
+To make my first dot file, I visited:
 
 * microsoft.com
 * state.gov
 * wikimedia.org
 * uwi.edu (University of the West Indies)
+
+To make my second dot file, I visited:
+
+* facebook.com
+* instagram.com
+* un.org
+* who.int
+* gov.am
+* cia.gov
+* fandom.com
+
+---
 
 ## Erik Rauer
 
@@ -74,3 +89,32 @@ Vote.gov
 Yale.edu
 
 Yonsei.ac.kr
+
+<<<<<<< HEAD
+##Richard Lussier
+Visited:
+youtube.com
+amazon.com
+noaa.gov
+whitehouse.gov
+twitch.tv
+discord.com
+morristheatre.net
+ox.ac.uk
+walmart.com
+canvas.umn.edu
+=======
+## Dante and Josh
+
+We visited:
+
+* info-link.net
+* pandora.com
+* spotify.com
+* alaska.gov
+* gla.ac.uk
+* apple.com
+* steam.com
+* microsoft.com
+* linkedin.com
+>>>>>>> 826600cc1a211e4dba85c8c677f541213a530649
