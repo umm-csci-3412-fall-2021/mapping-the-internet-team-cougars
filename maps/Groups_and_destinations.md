@@ -74,3 +74,16 @@ Vote.gov
 Yale.edu
 
 Yonsei.ac.kr
+
+##Richard Lussier
+Visited:
+youtube.com
+amazon.com
+noaa.gov
+whitehouse.gov
+twitch.tv
+discord.com
+morristheatre.net
+ox.ac.uk
+walmart.com
+canvas.umn.edu
