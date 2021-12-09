@@ -1,0 +1,72 @@
+digraph network {
+
+// traceroute to portal.uni-koeln.de (134.95.81.52), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "ddf-b2-link.ip.twelve99.net (62.115.115.51)";
+"ddf-b2-link.ip.twelve99.net (62.115.115.51)" -> "ldn-bb4-link.ip.twelve99.net (62.115.112.245)";
+"ldn-bb4-link.ip.twelve99.net (62.115.112.245)" -> "rtkds-vc1-ae1.netcologne.de (89.1.16.126)";
+"rtkds-vc1-ae1.netcologne.de (89.1.16.126)" -> "194.8.221.122 (194.8.221.122)";
+"194.8.221.122 (194.8.221.122)" -> "194.8.221.122 (194.8.221.122)";
+"194.8.221.122 (194.8.221.122)" -> "portal.uni-koeln.de (134.95.81.52)";
+
+// traceroute to www.uct.ac.za (137.158.154.230), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)";
+"et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)" -> "et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)";
+"et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)" -> "et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)";
+"et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)" -> "www.uct.ac.za (137.158.154.230)";
+
+// traceroute to cqu.edu.cn (202.202.2.6), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mini-b2-link.ip.twelve99.net (62.115.135.185)";
+"mini-b2-link.ip.twelve99.net (62.115.135.185)" -> "cogent-ic334880-mini-b1.ip.twelve99-cust.net (62.115.161.105)";
+"cogent-ic334880-mini-b1.ip.twelve99-cust.net (62.115.161.105)" -> "cogent-ic334880-mini-b1.ip.twelve99-cust.net (62.115.161.105)";
+"cogent-ic334880-mini-b1.ip.twelve99-cust.net (62.115.161.105)" -> "be3036.ccr22.den01.atlas.cogentco.com (154.54.31.89)";
+"be3036.ccr22.den01.atlas.cogentco.com (154.54.31.89)" -> "be2831.ccr21.mci01.atlas.cogentco.com (154.54.42.165)";
+"be2831.ccr21.mci01.atlas.cogentco.com (154.54.42.165)" -> "be2929.ccr31.phx01.atlas.cogentco.com (154.54.42.65)";
+"be2929.ccr31.phx01.atlas.cogentco.com (154.54.42.65)" -> "be2931.ccr41.lax01.atlas.cogentco.com (154.54.44.86)";
+"be2931.ccr41.lax01.atlas.cogentco.com (154.54.44.86)" -> "be2930.ccr32.phx01.atlas.cogentco.com (154.54.42.77)";
+"be2930.ccr32.phx01.atlas.cogentco.com (154.54.42.77)" -> "be2931.ccr41.lax01.atlas.cogentco.com (154.54.44.86)";
+"be2931.ccr41.lax01.atlas.cogentco.com (154.54.44.86)" -> "be3271.ccr41.lax04.atlas.cogentco.com (154.54.42.102)";
+"be3271.ccr41.lax04.atlas.cogentco.com (154.54.42.102)" -> "101.4.117.169 (101.4.117.169)";
+"101.4.117.169 (101.4.117.169)" -> "38.88.196.186 (38.88.196.186)";
+"38.88.196.186 (38.88.196.186)" -> "101.4.118.213 (101.4.118.213)";
+"101.4.118.213 (101.4.118.213)" -> "101.4.112.2 (101.4.112.2)";
+"101.4.112.2 (101.4.112.2)" -> "101.4.112.2 (101.4.112.2)";
+"101.4.112.2 (101.4.112.2)" -> "101.4.117.37 (101.4.117.37)";
+"101.4.117.37 (101.4.117.37)" -> "202.202.216.2 (202.202.216.2)";
+"202.202.216.2 (202.202.216.2)" -> "202.202.216.2 (202.202.216.2)";
+"202.202.216.2 (202.202.216.2)" -> "202.202.216.2 (202.202.216.2)";
+"202.202.216.2 (202.202.216.2)" -> "202.202.216.2 (202.202.216.2)";
+"202.202.216.2 (202.202.216.2)" -> "cqu.edu.cn (202.202.2.6)";
+}
