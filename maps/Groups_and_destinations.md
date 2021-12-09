@@ -40,4 +40,13 @@ I visited:
 * mn.gov
 * linuxcommand.org
 * visitberlin.de
->>>>>>> d3ed8bf93b36a97b4f0e223b800dc599a84a3a1f
+
+---
+
+## Josh and Dante
+
+ We visited:
+
+ * info-link.net
+ * pandora.com
+ * spotify.com
