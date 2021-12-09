@@ -44,12 +44,22 @@ I visited:
 * linuxcommand.org
 * visitberlin.de
 
----
+## Team Blake and Zeke
 
-## Josh and Dante
+We visited:
+- artisan-jp.com
+- aari.aq
+- ea.com
+- khanacademy.org
+- nyc.gov
+- tesla.com
 
- We visited:
+## Nick Gilbertson
 
- * info-link.net
- * pandora.com
- * spotify.com
+Visited:
+
+Vote.gov
+
+Yale.edu
+
+Yonsei.ac.kr
