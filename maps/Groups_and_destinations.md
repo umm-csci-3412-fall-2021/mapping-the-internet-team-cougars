@@ -75,6 +75,7 @@ Yale.edu
 
 Yonsei.ac.kr
 
+<<<<<<< HEAD
 ##Richard Lussier
 Visited:
 youtube.com
@@ -87,3 +88,15 @@ morristheatre.net
 ox.ac.uk
 walmart.com
 canvas.umn.edu
+=======
+## Dante and Josh
+
+We visited:
+
+* info-link.net
+* pandora.com
+* spotify.com
+* alaska.gov
+* gla.ac.uk
+* apple.com
+>>>>>>> 826600cc1a211e4dba85c8c677f541213a530649
