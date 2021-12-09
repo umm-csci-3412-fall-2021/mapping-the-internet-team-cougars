@@ -16,7 +16,8 @@ We visited:
 * stuff.and.nonsense
 * etc.etc.etc.
 
-## Kyle ##
+
+## Kyle Day
 
 I visited:
 
@@ -24,3 +25,25 @@ I visited:
 * state.gov
 * wikimedia.org
 * uwi.edu (University of the West Indies)
+
+## Erik Rauer
+
+I visited:
+
+* google.com
+* amazon.com
+* google.de
+* mn.gov
+* linuxcommand.org
+* visitberlin.de
+
+## Team Blake and Zeke
+
+We visited:
+- artisan-jp.com
+- aari.aq
+- ea.com
+- khanacademy.org
+- nyc.gov
+- tesla.com
+
