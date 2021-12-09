@@ -1,0 +1,1780 @@
+digraph network {
+
+// 
+"Dungeon" -> 
+// traceroute to alaska.gov (158.145.65.37), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "100ge11-2.core1.sea1.he.net (184.104.194.21)";
+"100ge11-2.core1.sea1.he.net (184.104.194.21)" -> "alaska-communications.10gigabitethernet1-2.core1.pdx1.he.net (65.19.191.98)";
+"alaska-communications.10gigabitethernet1-2.core1.pdx1.he.net (65.19.191.98)" -> "100ge15-1.core1.pdx1.he.net (184.105.64.138)";
+"100ge15-1.core1.pdx1.he.net (184.105.64.138)" -> "xe-0-1-0-r2.nwc.acsalaska.net (63.140.116.192)";
+"xe-0-1-0-r2.nwc.acsalaska.net (63.140.116.192)" -> "alaska-communications.10gigabitethernet1-2.core1.pdx1.he.net (65.19.191.98)";
+"alaska-communications.10gigabitethernet1-2.core1.pdx1.he.net (65.19.191.98)" -> "ae9-r2.nwc.acsalaska.net (63.140.116.224)";
+"ae9-r2.nwc.acsalaska.net (63.140.116.224)" -> "mx1.anc.soa.acsalaska.net (209.112.202.138)";
+"mx1.anc.soa.acsalaska.net (209.112.202.138)" -> "mx1.anc.soa.acsalaska.net (209.112.202.138)";
+"mx1.anc.soa.acsalaska.net (209.112.202.138)" -> "alaska.gov (158.145.65.37)";
+
+// traceroute to gla.ac.uk (130.209.16.93), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)";
+"telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "bundle-ether1.4076.core1.eqch.net.internet2.edu (162.252.70.189)";
+"bundle-ether1.4076.core1.eqch.net.internet2.edu (162.252.70.189)" -> "internet2.mx1.lon.uk.geant.net (62.40.124.44)";
+"internet2.mx1.lon.uk.geant.net (62.40.124.44)" -> "ae29.londpg-sbr2.ja.net (146.97.33.2)";
+"ae29.londpg-sbr2.ja.net (146.97.33.2)" -> "janet-gw.mx1.lon.uk.geant.net (62.40.124.198)";
+"janet-gw.mx1.lon.uk.geant.net (62.40.124.198)" -> "ae29.londpg-sbr2.ja.net (146.97.33.2)";
+"ae29.londpg-sbr2.ja.net (146.97.33.2)" -> "ae31.erdiss-sbr2.ja.net (146.97.33.22)";
+"ae31.erdiss-sbr2.ja.net (146.97.33.22)" -> "ae26.glasjw-rbr1.ja.net (146.97.38.26)";
+"ae26.glasjw-rbr1.ja.net (146.97.38.26)" -> "ae31.glasss-sbr1.ja.net (146.97.33.54)";
+"ae31.glasss-sbr1.ja.net (146.97.33.54)" -> "ae31.glasss-sbr1.ja.net (146.97.33.54)";
+"ae31.glasss-sbr1.ja.net (146.97.33.54)" -> "146.97.154.2 (146.97.154.2)";
+"146.97.154.2 (146.97.154.2)" -> "gla.ac.uk (130.209.16.93)";
+
+
+// traceroute to apple.com (17.253.144.10), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "17.1.137.4 (17.1.137.4)";
+"17.1.137.4 (17.1.137.4)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "apple.com (17.253.144.10)";
+
+
+// traceroute to steam.com (43.129.23.233), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)";
+"sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)" -> "hu0-4-0-3.cr01.hkg15.pccwbtn.net (63.218.174.249)";
+"hu0-4-0-3.cr01.hkg15.pccwbtn.net (63.218.174.249)" -> "hu0-4-0-3.cr01.hkg15.pccwbtn.net (63.218.174.249)";
+"hu0-4-0-3.cr01.hkg15.pccwbtn.net (63.218.174.249)" -> "HundredGE0-0-0-6-br04.hkg12.pccwbtn.net (63.218.174.241)";
+"HundredGE0-0-0-6-br04.hkg12.pccwbtn.net (63.218.174.241)" -> "TenGE0-0-0-1.br03.hkg12.pccwbtn.net (63.218.174.53)";
+"TenGE0-0-0-1.br03.hkg12.pccwbtn.net (63.218.174.53)" -> "vlan24-inc.gi100-0-0-8.br02.hkg12.pccwbtn.net (63.216.176.162)";
+"vlan24-inc.gi100-0-0-8.br02.hkg12.pccwbtn.net (63.216.176.162)" -> "43.129.23.233 (43.129.23.233)";
+"43.129.23.233 (43.129.23.233)" -> "steam.com (43.129.23.233)";
+
+// traceroute to microsoft.com (40.113.200.201), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "ae24-0.icr04.dsm05.ntwk.msn.net (104.44.42.203)";
+"ae24-0.icr04.dsm05.ntwk.msn.net (104.44.42.203)" -> "microsoft.com (40.113.200.201)";
+
+// traceroute to linkedin.com (13.107.42.14), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "linkedin.com (13.107.42.14)";
+
+
+// traceroute to info-link.net (65.122.208.50), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)";
+"ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)" -> "ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)";
+"ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)" -> "ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)";
+"ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)" -> "userpages.info-link.net (65.122.208.50)";
+"userpages.info-link.net (65.122.208.50)" -> "info-link.net (65.122.208.50)";
+
+// traceroute to pandora.com (208.85.40.158), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)";
+"sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)" -> "be-205-pe11.350ecermak.il.ibone.comcast.net (96.87.9.105)";
+"be-205-pe11.350ecermak.il.ibone.comcast.net (96.87.9.105)" -> "be-302-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.150)";
+"be-302-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.150)" -> "be-1211-cs02.1601milehigh.co.ibone.comcast.net (96.110.39.69)";
+"be-1211-cs02.1601milehigh.co.ibone.comcast.net (96.110.39.69)" -> "be-304-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.158)";
+"be-304-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.158)" -> "be-302-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.150)";
+"be-302-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.150)" -> "be-301-cr14.champa.co.ibone.comcast.net (96.110.39.1)";
+"be-301-cr14.champa.co.ibone.comcast.net (96.110.39.1)" -> "be-1313-cs03.champa.co.ibone.comcast.net (96.110.37.233)";
+"be-1313-cs03.champa.co.ibone.comcast.net (96.110.37.233)" -> "be-1213-cs02.champa.co.ibone.comcast.net (96.110.37.229)";
+"be-1213-cs02.champa.co.ibone.comcast.net (96.110.37.229)" -> "be-303-cr11.sunnyvale.ca.ibone.comcast.net (96.110.39.26)";
+"be-303-cr11.sunnyvale.ca.ibone.comcast.net (96.110.39.26)" -> "be-303-cr11.sunnyvale.ca.ibone.comcast.net (96.110.39.26)";
+"be-303-cr11.sunnyvale.ca.ibone.comcast.net (96.110.39.26)" -> "be-1111-cs01.sunnyvale.ca.ibone.comcast.net (96.110.46.1)";
+"be-1111-cs01.sunnyvale.ca.ibone.comcast.net (96.110.46.1)" -> "be-1112-cr12.sunnyvale.ca.ibone.comcast.net (96.110.46.6)";
+"be-1112-cr12.sunnyvale.ca.ibone.comcast.net (96.110.46.6)" -> "be-304-cr12.9greatoaks.ca.ibone.comcast.net (96.110.37.182)";
+"be-304-cr12.9greatoaks.ca.ibone.comcast.net (96.110.37.182)" -> "be-1412-cs04.9greatoaks.ca.ibone.comcast.net (68.86.166.169)";
+"be-1412-cs04.9greatoaks.ca.ibone.comcast.net (68.86.166.169)" -> "be-2201-pe01.9greatoaks.ca.ibone.comcast.net (96.110.36.222)";
+"be-2201-pe01.9greatoaks.ca.ibone.comcast.net (96.110.36.222)" -> "pandora.com (208.85.40.158)";
+
+// traceroute to spotify.com (35.186.224.25), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "108.170.243.225 (108.170.243.225)";
+"108.170.243.225 (108.170.243.225)" -> "216.239.47.129 (216.239.47.129)";
+"216.239.47.129 (216.239.47.129)" -> "108.170.244.1 (108.170.244.1)";
+"108.170.244.1 (108.170.244.1)" -> "25.224.186.35.bc.googleusercontent.com (35.186.224.25)";
+"25.224.186.35.bc.googleusercontent.com (35.186.224.25)" -> "spotify.com (35.186.224.25)";
+
+
+// traceroute to amazon.com (205.251.242.103), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "72.21.218.196 (72.21.218.196)";
+"72.21.218.196 (72.21.218.196)" -> "amazon.com (205.251.242.103)";
+
+// traceroute to google.com (142.250.191.206), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)";
+"telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "108.170.243.174 (108.170.243.174)";
+"108.170.243.174 (108.170.243.174)" -> "142.251.60.15 (142.251.60.15)";
+"142.251.60.15 (142.251.60.15)" -> "ord38s31-in-f14.1e100.net (142.250.191.206)";
+"ord38s31-in-f14.1e100.net (142.250.191.206)" -> "google.com (142.250.191.206)";
+
+// traceroute to mn.gov (66.225.237.206), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "omha-b1-link.ip.twelve99.net (62.115.143.225)";
+"omha-b1-link.ip.twelve99.net (62.115.143.225)" -> "66.225.237.206 (66.225.237.206)";
+"66.225.237.206 (66.225.237.206)" -> "mn.gov (66.225.237.206)";
+
+// traceroute to google.de (172.217.5.3), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "108.170.243.174 (108.170.243.174)";
+"108.170.243.174 (108.170.243.174)" -> "209.85.255.145 (209.85.255.145)";
+"209.85.255.145 (209.85.255.145)" -> "ord38s19-in-f3.1e100.net (172.217.5.3)";
+"ord38s19-in-f3.1e100.net (172.217.5.3)" -> "google.de (172.217.5.3)";
+
+// traceroute to visitberlin.de (5.9.135.159), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "et-5-1-5-106.cr1-min1.ip4.gtt.net (209.120.155.197)";
+"et-5-1-5-106.cr1-min1.ip4.gtt.net (209.120.155.197)" -> "ae9.cr6-fra2.ip4.gtt.net (141.136.110.41)";
+"ae9.cr6-fra2.ip4.gtt.net (141.136.110.41)" -> "ip4.gtt.net (154.14.78.154)";
+"ip4.gtt.net (154.14.78.154)" -> "core24.fsn1.hetzner.com (213.239.229.78)";
+"core24.fsn1.hetzner.com (213.239.229.78)" -> "ex9k2.dc15.fsn1.hetzner.com (213.239.245.206)";
+"ex9k2.dc15.fsn1.hetzner.com (213.239.245.206)" -> "s221-001.werk21system.de (168.119.68.233)";
+"s221-001.werk21system.de (168.119.68.233)" -> "s221-001.werk21system.de (168.119.68.233)";
+"s221-001.werk21system.de (168.119.68.233)" -> "www.visitberlin.de (5.9.135.159)";
+"www.visitberlin.de (5.9.135.159)" -> "visitberlin.de (5.9.135.159)";
+
+// traceroute to linuxcommand.org (216.105.38.11), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)";
+"ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)" -> "ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)";
+"ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)" -> "los-edge-08.inet.qwest.net (67.14.22.202)";
+"los-edge-08.inet.qwest.net (67.14.22.202)" -> "br05-te0-0-1-6.lwdc.americanis.net (207.158.62.109)";
+"br05-te0-0-1-6.lwdc.americanis.net (207.158.62.109)" -> "br05-te0-0-1-6.lwdc.americanis.net (207.158.62.109)";
+"br05-te0-0-1-6.lwdc.americanis.net (207.158.62.109)" -> "216.105.38.250 (216.105.38.250)";
+"216.105.38.250 (216.105.38.250)" -> "216.105.38.254 (216.105.38.254)";
+"216.105.38.254 (216.105.38.254)" -> "secureprojects.sourceforge.net (216.105.38.11)";
+"secureprojects.sourceforge.net (216.105.38.11)" -> "linuxcommand.org (216.105.38.11)";
+
+
+// traceroute to southpole.aq (173.254.29.24), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)";
+"sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)" -> "be-2411-cs04.350ecermak.il.ibone.comcast.net (96.110.33.205)";
+"be-2411-cs04.350ecermak.il.ibone.comcast.net (96.110.33.205)" -> "be-2311-cs03.350ecermak.il.ibone.comcast.net (96.110.33.201)";
+"be-2311-cs03.350ecermak.il.ibone.comcast.net (96.110.33.201)" -> "be-2411-cs04.350ecermak.il.ibone.comcast.net (96.110.33.205)";
+"be-2411-cs04.350ecermak.il.ibone.comcast.net (96.110.33.205)" -> "be-1411-cr11.350ecermak.il.ibone.comcast.net (96.110.35.14)";
+"be-1411-cr11.350ecermak.il.ibone.comcast.net (96.110.35.14)" -> "be-1313-cr13.1601milehigh.co.ibone.comcast.net (96.110.39.106)";
+"be-1313-cr13.1601milehigh.co.ibone.comcast.net (96.110.39.106)" -> "be-1111-cs01.1601milehigh.co.ibone.comcast.net (96.110.39.65)";
+"be-1111-cs01.1601milehigh.co.ibone.comcast.net (96.110.39.65)" -> "be-1114-cs01.champa.co.ibone.comcast.net (96.110.37.241)";
+"be-1114-cs01.champa.co.ibone.comcast.net (96.110.37.241)" -> "be-301-cr13.champa.co.ibone.comcast.net (96.110.36.193)";
+"be-301-cr13.champa.co.ibone.comcast.net (96.110.36.193)" -> "be-36721-ar01.saltlakecity.ut.utah.comcast.net (96.110.43.230)";
+"be-36721-ar01.saltlakecity.ut.utah.comcast.net (96.110.43.230)" -> "be-11-sur03.orem.ut.utah.comcast.net (162.151.9.190)";
+"be-11-sur03.orem.ut.utah.comcast.net (162.151.9.190)" -> "po-1-rur01.orem.ut.utah.comcast.net (162.151.9.186)";
+"po-1-rur01.orem.ut.utah.comcast.net (162.151.9.186)" -> "69-195-64-111.unifiedlayer.com (69.195.64.111)";
+"69-195-64-111.unifiedlayer.com (69.195.64.111)" -> "po99.prv-leaf6b.net.unifiedlayer.com (162.144.240.23)";
+"po99.prv-leaf6b.net.unifiedlayer.com (162.144.240.23)" -> "just2054.justhost.com (173.254.29.24)";
+"just2054.justhost.com (173.254.29.24)" -> "southpole.aq (173.254.29.24)";
+
+// traceroute to deutschland.de (3.122.62.64), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "nyk-bb2-link.ip.twelve99.net (62.115.137.58)";
+"nyk-bb2-link.ip.twelve99.net (62.115.137.58)" -> "ldn-b2-link.ip.twelve99.net (62.115.120.239)";
+"ldn-b2-link.ip.twelve99.net (62.115.120.239)" -> "ldn-b2-link.ip.twelve99.net (62.115.122.189)";
+"ldn-b2-link.ip.twelve99.net (62.115.122.189)" -> "a100-ic328653-ldn-b2.ip.twelve99-cust.net (80.239.195.89)";
+"a100-ic328653-ldn-b2.ip.twelve99-cust.net (80.239.195.89)" -> "a100-ic328653-ldn-b2.ip.twelve99-cust.net (80.239.195.89)";
+"a100-ic328653-ldn-b2.ip.twelve99-cust.net (80.239.195.89)" -> "deutschland.de (3.122.62.64)";
+
+// traceroute to worldometers.info (172.67.70.249), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "141.101.73.28 (141.101.73.28)";
+"141.101.73.28 (141.101.73.28)" -> "172.70.124.2 (172.70.124.2)";
+"172.70.124.2 (172.70.124.2)" -> "172.70.128.2 (172.70.128.2)";
+"172.70.128.2 (172.70.128.2)" -> "worldometers.info (172.67.70.249)";
+
+// traceroute to chhattisgarh.nic.in (164.100.50.54), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)";
+"sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)" -> "xe-2-2-0.0.pjr02.nyc007.flagtel.com (85.95.25.150)";
+"xe-2-2-0.0.pjr02.nyc007.flagtel.com (85.95.25.150)" -> "ae1.0.cjr03.prs001.flagtel.com (62.216.131.29)";
+"ae1.0.cjr03.prs001.flagtel.com (62.216.131.29)" -> "xe-8-1-1.0.pjr03.mmb004.flagtel.com (85.95.25.113)";
+"xe-8-1-1.0.pjr03.mmb004.flagtel.com (85.95.25.113)" -> "xe-8-1-1.0.pjr03.mmb004.flagtel.com (85.95.25.113)";
+"xe-8-1-1.0.pjr03.mmb004.flagtel.com (85.95.25.113)" -> "115.255.253.18 (115.255.253.18)";
+"115.255.253.18 (115.255.253.18)" -> "115.249.198.97 (115.249.198.97)";
+"115.249.198.97 (115.249.198.97)" -> "chhattisgarh.nic.in (164.100.50.54)";
+
+// traceroute to cg.portal.uscg.mil (152.121.188.134), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)";
+"ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)" -> "ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)";
+"ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)" -> "ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)";
+"ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)" -> "140.14.40.33 (140.14.40.33)";
+"140.14.40.33 (140.14.40.33)" -> "33.40.1.118 (33.40.1.118)";
+"33.40.1.118 (33.40.1.118)" -> "cg.portal.uscg.mil (152.121.188.134)";
+
+// traceroute to argentina.travel (181.209.22.104), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "ae12.cr7-dal3.ip4.gtt.net (213.200.120.106)";
+"ae12.cr7-dal3.ip4.gtt.net (213.200.120.106)" -> "ae12.cr7-dal3.ip4.gtt.net (213.200.120.106)";
+"ae12.cr7-dal3.ip4.gtt.net (213.200.120.106)" -> "ip4.gtt.net (209.120.138.250)";
+"ip4.gtt.net (209.120.138.250)" -> "94.142.97.167 (94.142.97.167)";
+"94.142.97.167 (94.142.97.167)" -> "5.53.5.40 (5.53.5.40)";
+"5.53.5.40 (5.53.5.40)" -> "213.140.39.119 (213.140.39.119)";
+"213.140.39.119 (213.140.39.119)" -> "200-63-157-205.speedy.com.ar (200.63.157.205)";
+"200-63-157-205.speedy.com.ar (200.63.157.205)" -> "62.254.33.186.in-addr.arpa (186.33.254.62)";
+"62.254.33.186.in-addr.arpa (186.33.254.62)" -> "41.254.33.186.in-addr.arpa (186.33.254.41)";
+"41.254.33.186.in-addr.arpa (186.33.254.41)" -> "argentina.travel (181.209.22.104)";
+
+
+// traceroute to srt.umn.edu (184.107.80.122), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)";
+"et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)" -> "et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)";
+"et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)" -> "76.74.1.143 (76.74.1.143)";
+"76.74.1.143 (76.74.1.143)" -> "ip4.gtt.net (74.199.183.66)";
+"ip4.gtt.net (74.199.183.66)" -> "srt.umn.edu (184.107.80.122)";
+
+// traceroute to github.com (140.82.112.4), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "github.com (140.82.112.4)";
+
+// traceroute to app.perusall.com (13.227.39.104), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "server-13-227-39-104.msp50.r.cloudfront.net (13.227.39.104)";
+"server-13-227-39-104.msp50.r.cloudfront.net (13.227.39.104)" -> "app.perusall.com (13.227.39.104)";
+
+// traceroute to mail.google.com (142.250.191.165), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "108.170.243.193 (108.170.243.193)";
+"108.170.243.193 (108.170.243.193)" -> "142.251.60.11 (142.251.60.11)";
+"142.251.60.11 (142.251.60.11)" -> "142.251.60.11 (142.251.60.11)";
+"142.251.60.11 (142.251.60.11)" -> "mail.google.com (142.250.191.165)";
+
+// traceroute to schedulebuilder.umn.edu (160.94.140.13), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-ri-1-te0-0-0-11-v124.c.net.umn.edu (146.57.49.130)";
+"behm-ri-1-te0-0-0-11-v124.c.net.umn.edu (146.57.49.130)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "tc-fd-1-vlan-211.ggnet.umn.edu (160.94.152.35)";
+"tc-fd-1-vlan-211.ggnet.umn.edu (160.94.152.35)" -> "telecomb-rd-1-bvi-30007.ggnet.umn.edu (160.94.182.138)";
+"telecomb-rd-1-bvi-30007.ggnet.umn.edu (160.94.182.138)" -> "telecomb-rd-1-bvi-30007.ggnet.umn.edu (160.94.182.138)";
+"telecomb-rd-1-bvi-30007.ggnet.umn.edu (160.94.182.138)" -> "datacenter-dc-01-v698.ggnet.umn.edu (10.32.56.254)";
+"datacenter-dc-01-v698.ggnet.umn.edu (10.32.56.254)" -> "datacenter-dc-01-v698.ggnet.umn.edu (10.32.56.254)";
+"datacenter-dc-01-v698.ggnet.umn.edu (10.32.56.254)" -> "schedulebuilder-lb.class.umn.edu (160.94.140.13)";
+"schedulebuilder-lb.class.umn.edu (160.94.140.13)" -> "schedulebuilder.umn.edu (160.94.140.13)";
+
+// traceroute to cheatography.com (178.79.154.177), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "nyk-bb2-link.ip.twelve99.net (62.115.137.58)";
+"nyk-bb2-link.ip.twelve99.net (62.115.137.58)" -> "ldn-bb1-link.ip.twelve99.net (62.115.113.21)";
+"ldn-bb1-link.ip.twelve99.net (62.115.113.21)" -> "linode-ic332557-ldn-b2.ip.twelve99-cust.net (62.115.41.65)";
+"linode-ic332557-ldn-b2.ip.twelve99-cust.net (62.115.41.65)" -> "if-3-24.router1-lon1.linode.com (109.74.207.31)";
+"if-3-24.router1-lon1.linode.com (109.74.207.31)" -> "if-3-21.router1-lon1.linode.com (109.74.207.5)";
+"if-3-21.router1-lon1.linode.com (109.74.207.5)" -> "cheatography.com (178.79.154.177)";
+"cheatography.com (178.79.154.177)" -> "cheatography.com (178.79.154.177)";
+
+// traceroute to twitch.tv (151.101.194.167), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)";
+"infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "twitch.tv (151.101.194.167)";
+
+// traceroute to discourse.pushlanguage.org (184.105.176.44), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "100ge11-2.core1.sea1.he.net (184.104.194.21)";
+"100ge11-2.core1.sea1.he.net (184.104.194.21)" -> "100ge11-2.core1.sea1.he.net (184.104.194.21)";
+"100ge11-2.core1.sea1.he.net (184.104.194.21)" -> "discourse.pushlanguage.org (184.105.176.44)";
+
+// traceroute to burymewithmymoney.com (64.13.233.12), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "ae9.ibrsa0106-01.lax1.bb.godaddy.com (213.248.77.146)";
+"ae9.ibrsa0106-01.lax1.bb.godaddy.com (213.248.77.146)" -> "las-b1-link.ip.twelve99.net (62.115.125.193)";
+"las-b1-link.ip.twelve99.net (62.115.125.193)" -> "148.72.34.25 (148.72.34.25)";
+"148.72.34.25 (148.72.34.25)" -> "72.10.63.118 (72.10.63.118)";
+"72.10.63.118 (72.10.63.118)" -> "e2.2.cr01.lax01.mtsvc.net (72.10.63.126)";
+"e2.2.cr01.lax01.mtsvc.net (72.10.63.126)" -> "72.10.63.118 (72.10.63.118)";
+"72.10.63.118 (72.10.63.118)" -> "burymewithmymoney.com (64.13.233.12)";
+
+// traceroute to spotify.com (35.186.224.25), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "108.170.244.1 (108.170.244.1)";
+"108.170.244.1 (108.170.244.1)" -> "142.251.60.9 (142.251.60.9)";
+"142.251.60.9 (142.251.60.9)" -> "209.85.255.145 (209.85.255.145)";
+"209.85.255.145 (209.85.255.145)" -> "spotify.com (35.186.224.25)";
+
+// traceroute to therichardshouse.com (107.180.41.147), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "nyk-bb1-link.ip.twelve99.net (80.91.246.163)";
+"nyk-bb1-link.ip.twelve99.net (80.91.246.163)" -> "rest-bb1-link.ip.twelve99.net (62.115.141.244)";
+"rest-bb1-link.ip.twelve99.net (62.115.141.244)" -> "ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)";
+"ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)" -> "ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)";
+"ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)" -> "ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)";
+"ae5.ibrsb0105-01.iad1.bb.godaddy.com (62.115.162.111)" -> "therichardshouse.com (107.180.41.147)";
+
+
+// traceroute to reddit.com (151.101.1.140), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "reddit.com (151.101.1.140)";
+
+// traceroute to bestbuy.com (184.84.218.197), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)";
+"infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)" -> "bestbuy.com (184.84.218.197)";
+
+// traceroute to apnews.com (34.96.72.156), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "108.170.244.1 (108.170.244.1)";
+"108.170.244.1 (108.170.244.1)" -> "108.170.243.225 (108.170.243.225)";
+"108.170.243.225 (108.170.243.225)" -> "142.251.60.215 (142.251.60.215)";
+"142.251.60.215 (142.251.60.215)" -> "apnews.com (34.96.72.156)";
+
+// traceroute to tomshardware.com (199.232.194.114), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "tomshardware.com (199.232.194.114)";
+
+// traceroute to fu-berlin.de (160.45.170.10), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)";
+"sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)" -> "ae9.mx1.ams.nl.geant.net (62.40.98.128)";
+"ae9.mx1.ams.nl.geant.net (62.40.98.128)" -> "internet2.mx1.lon.uk.geant.net (62.40.124.44)";
+"internet2.mx1.lon.uk.geant.net (62.40.124.44)" -> "ae9.mx1.ams.nl.geant.net (62.40.98.128)";
+"ae9.mx1.ams.nl.geant.net (62.40.98.128)" -> "dfn-gw.mx1.fra.de.geant.net (62.40.124.218)";
+"dfn-gw.mx1.fra.de.geant.net (62.40.124.218)" -> "kr-fubln6-2.x-win.dfn.de (188.1.234.174)";
+"kr-fubln6-2.x-win.dfn.de (188.1.234.174)" -> "milos-eth1-2.router.fu-berlin.de (130.133.252.242)";
+"milos-eth1-2.router.fu-berlin.de (130.133.252.242)" -> "fabeck32-100-s51-7010-aggr.router.fu-berlin.de (130.133.252.62)";
+"fabeck32-100-s51-7010-aggr.router.fu-berlin.de (130.133.252.62)" -> "fabeck32-100-s71-7010-aggr.router.fu-berlin.de (130.133.252.226)";
+"fabeck32-100-s71-7010-aggr.router.fu-berlin.de (130.133.252.226)" -> "fu-berlin.de (160.45.170.10)";
+
+// traceroute to cs.cmu.edu (128.2.42.95), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)";
+"sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)" -> "163.253.5.33 (163.253.5.33)";
+"163.253.5.33 (163.253.5.33)" -> "163.253.5.33 (163.253.5.33)";
+"163.253.5.33 (163.253.5.33)" -> "162-223-17-79.static.firstlight.net (162.223.17.79)";
+"162-223-17-79.static.firstlight.net (162.223.17.79)" -> "162-223-17-79.static.firstlight.net (162.223.17.79)";
+"162-223-17-79.static.firstlight.net (162.223.17.79)" -> "SCS-WEB-LB.ANDREW.CMU.EDU (128.2.42.95)";
+"SCS-WEB-LB.ANDREW.CMU.EDU (128.2.42.95)" -> "cs.cmu.edu (128.2.42.95)";
+
+// traceroute to morristheatre.net (192.252.144.35), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "jfk2-edge-03.inet.qwest.net (67.14.45.222)";
+"jfk2-edge-03.inet.qwest.net (67.14.45.222)" -> "bst-pbrr-02.inet.qwest.net (67.14.30.150)";
+"bst-pbrr-02.inet.qwest.net (67.14.30.150)" -> "morristheatre.net (192.252.144.35)";
+
+// traceroute to daad.de (80.158.12.111), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)";
+"10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)" -> "100ge13-1.core2.chi1.he.net (184.105.223.177)";
+"100ge13-1.core2.chi1.he.net (184.105.223.177)" -> "100ge7-1.core1.lon2.he.net (72.52.92.165)";
+"100ge7-1.core1.lon2.he.net (72.52.92.165)" -> "100ge7-1.core1.fra1.he.net (184.105.80.38)";
+"100ge7-1.core1.fra1.he.net (184.105.80.38)" -> "100ge7-1.core1.fra1.he.net (184.105.80.38)";
+"100ge7-1.core1.fra1.he.net (184.105.80.38)" -> "daad.de (80.158.12.111)";
+
+// traceroute to first-avenue.com (159.89.53.32), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "nyk-bb1-link.ip.twelve99.net (80.91.246.163)";
+"nyk-bb1-link.ip.twelve99.net (80.91.246.163)" -> "nyk-bb1-link.ip.twelve99.net (80.91.246.163)";
+"nyk-bb1-link.ip.twelve99.net (80.91.246.163)" -> "first-avenue.com (159.89.53.32)";
+
+// traceroute to smitegame.com (104.18.189.32), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)";
+"infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "smitegame.com (104.18.189.32)";
+
+// traceroute to wikipedia.org (208.80.153.224), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "wikipedia.org (208.80.153.224)";
+
+// traceroute to mathworld.wolfram.com (140.177.204.25), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)";
+"et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)" -> "et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)";
+"et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)" -> "et-7-0-2.cr1-stl2.ip4.gtt.net (89.149.186.26)";
+"et-7-0-2.cr1-stl2.ip4.gtt.net (89.149.186.26)" -> "client-208-124-98-133.consolidated.net (208.124.98.133)";
+"client-208-124-98-133.consolidated.net (208.124.98.133)" -> "206-221-158-46.ip.ctc.biz (206.221.158.46)";
+"206-221-158-46.ip.ctc.biz (206.221.158.46)" -> "206-221-158-46.ip.ctc.biz (206.221.158.46)";
+"206-221-158-46.ip.ctc.biz (206.221.158.46)" -> "140.177.203.14 (140.177.203.14)";
+"140.177.203.14 (140.177.203.14)" -> "mathworld.wolfram.com (140.177.204.25)";
+
+// traceroute to events.morris.umn.edu (13.92.255.122), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "ae22-0.icr02.ch4.ntwk.msn.net (104.44.40.116)";
+"ae22-0.icr02.ch4.ntwk.msn.net (104.44.40.116)" -> "be-102-0.ibr01.ch4.ntwk.msn.net (104.44.11.3)";
+"be-102-0.ibr01.ch4.ntwk.msn.net (104.44.11.3)" -> "be-9-0.ibr01.cle30.ntwk.msn.net (104.44.29.46)";
+"be-9-0.ibr01.cle30.ntwk.msn.net (104.44.29.46)" -> "be-11-0.ibr02.cle30.ntwk.msn.net (104.44.29.44)";
+"be-11-0.ibr02.cle30.ntwk.msn.net (104.44.29.44)" -> "be-9-0.ibr01.cle30.ntwk.msn.net (104.44.29.46)";
+"be-9-0.ibr01.cle30.ntwk.msn.net (104.44.29.46)" -> "events.morris.umn.edu (13.92.255.122)";
+
+// traceroute to budgetbytes.com (172.67.218.43), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "141.101.73.18 (141.101.73.18)";
+"141.101.73.18 (141.101.73.18)" -> "172.67.218.43 (172.67.218.43)";
+"172.67.218.43 (172.67.218.43)" -> "budgetbytes.com (172.67.218.43)";
+
+// traceroute to thebluealliance.com (172.67.154.46), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)";
+"behm-rc-2-te0-3-0-42-v122.c.net.umn.edu (10.33.1.154)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "141.101.73.28 (141.101.73.28)";
+"141.101.73.28 (141.101.73.28)" -> "141.101.73.28 (141.101.73.28)";
+"141.101.73.28 (141.101.73.28)" -> "172.70.176.2 (172.70.176.2)";
+"172.70.176.2 (172.70.176.2)" -> "thebluealliance.com (172.67.154.46)";
+
+// traceroute to charlixcx.co.uk (23.227.38.65), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "myshopify.com (23.227.38.65)";
+"myshopify.com (23.227.38.65)" -> "charlixcx.co.uk (23.227.38.65)";
+
+// traceroute to twitter.com (104.244.42.193), 60 hops max, 60 byte packets
+"Dungeon" -> "DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)";
+"DESKTOP-UQ0TA3R.mshome.net (172.20.176.1)" -> "border-re-01-v5101.ggnet.umn.edu (10.133.63.254)";
+"border-re-01-v5101.ggnet.umn.edu (10.133.63.254)" -> "behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)";
+"behm-nb-1-ve122.m.net.umn.edu (10.33.1.155)" -> "behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)";
+"behm-ri-1-bv63000.c.net.umn.edu (146.57.49.65)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "twitter-pni-a.wiscnet.net (205.213.119.46)";
+"twitter-pni-a.wiscnet.net (205.213.119.46)" -> "twitter.com (104.244.42.193)";
+
+
+// traceroute to www.minneapolismn.gov (54.192.58.56), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "www.minneapolismn.gov (54.192.58.56)";
+
+// traceroute to www.stpaul.gov (184.73.245.212), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "www.stpaul.gov (184.73.245.212)";
+
+// traceroute to www.nist.gov (54.209.142.109), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)";
+"infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "www.nist.gov (54.209.142.109)";
+
+
+// traceroute to portal.uni-koeln.de (134.95.81.52), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "ddf-b2-link.ip.twelve99.net (62.115.115.51)";
+"ddf-b2-link.ip.twelve99.net (62.115.115.51)" -> "ldn-bb4-link.ip.twelve99.net (62.115.112.245)";
+"ldn-bb4-link.ip.twelve99.net (62.115.112.245)" -> "rtkds-vc1-ae1.netcologne.de (89.1.16.126)";
+"rtkds-vc1-ae1.netcologne.de (89.1.16.126)" -> "194.8.221.122 (194.8.221.122)";
+"194.8.221.122 (194.8.221.122)" -> "194.8.221.122 (194.8.221.122)";
+"194.8.221.122 (194.8.221.122)" -> "portal.uni-koeln.de (134.95.81.52)";
+
+// traceroute to www.uct.ac.za (137.158.154.230), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)";
+"et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)" -> "et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)";
+"et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)" -> "et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)";
+"et-0-0-1-0-cpt7-pe1.net.tenet.ac.za (155.232.64.70)" -> "www.uct.ac.za (137.158.154.230)";
+
+// traceroute to cqu.edu.cn (202.202.2.6), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mini-b2-link.ip.twelve99.net (62.115.135.185)";
+"mini-b2-link.ip.twelve99.net (62.115.135.185)" -> "cogent-ic334880-mini-b1.ip.twelve99-cust.net (62.115.161.105)";
+"cogent-ic334880-mini-b1.ip.twelve99-cust.net (62.115.161.105)" -> "cogent-ic334880-mini-b1.ip.twelve99-cust.net (62.115.161.105)";
+"cogent-ic334880-mini-b1.ip.twelve99-cust.net (62.115.161.105)" -> "be3036.ccr22.den01.atlas.cogentco.com (154.54.31.89)";
+"be3036.ccr22.den01.atlas.cogentco.com (154.54.31.89)" -> "be2831.ccr21.mci01.atlas.cogentco.com (154.54.42.165)";
+"be2831.ccr21.mci01.atlas.cogentco.com (154.54.42.165)" -> "be2929.ccr31.phx01.atlas.cogentco.com (154.54.42.65)";
+"be2929.ccr31.phx01.atlas.cogentco.com (154.54.42.65)" -> "be2931.ccr41.lax01.atlas.cogentco.com (154.54.44.86)";
+"be2931.ccr41.lax01.atlas.cogentco.com (154.54.44.86)" -> "be2930.ccr32.phx01.atlas.cogentco.com (154.54.42.77)";
+"be2930.ccr32.phx01.atlas.cogentco.com (154.54.42.77)" -> "be2931.ccr41.lax01.atlas.cogentco.com (154.54.44.86)";
+"be2931.ccr41.lax01.atlas.cogentco.com (154.54.44.86)" -> "be3271.ccr41.lax04.atlas.cogentco.com (154.54.42.102)";
+"be3271.ccr41.lax04.atlas.cogentco.com (154.54.42.102)" -> "101.4.117.169 (101.4.117.169)";
+"101.4.117.169 (101.4.117.169)" -> "38.88.196.186 (38.88.196.186)";
+"38.88.196.186 (38.88.196.186)" -> "101.4.118.213 (101.4.118.213)";
+"101.4.118.213 (101.4.118.213)" -> "101.4.112.2 (101.4.112.2)";
+"101.4.112.2 (101.4.112.2)" -> "101.4.112.2 (101.4.112.2)";
+"101.4.112.2 (101.4.112.2)" -> "101.4.117.37 (101.4.117.37)";
+"101.4.117.37 (101.4.117.37)" -> "202.202.216.2 (202.202.216.2)";
+"202.202.216.2 (202.202.216.2)" -> "202.202.216.2 (202.202.216.2)";
+"202.202.216.2 (202.202.216.2)" -> "202.202.216.2 (202.202.216.2)";
+"202.202.216.2 (202.202.216.2)" -> "202.202.216.2 (202.202.216.2)";
+"202.202.216.2 (202.202.216.2)" -> "cqu.edu.cn (202.202.2.6)";
+
+
+// traceroute to google.com (142.250.191.110), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)";
+"infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)" -> "108.170.243.174 (108.170.243.174)";
+"108.170.243.174 (108.170.243.174)" -> "108.170.243.174 (108.170.243.174)";
+"108.170.243.174 (108.170.243.174)" -> "ord38s28-in-f14.1e100.net (142.250.191.110)";
+"ord38s28-in-f14.1e100.net (142.250.191.110)" -> "google.com (142.250.191.110)";
+
+// traceroute to google.com (142.250.191.110), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "142.251.60.1 (142.251.60.1)";
+"142.251.60.1 (142.251.60.1)" -> "142.251.60.3 (142.251.60.3)";
+"142.251.60.3 (142.251.60.3)" -> "142.251.60.3 (142.251.60.3)";
+"142.251.60.3 (142.251.60.3)" -> "google.com (142.250.191.110)";
+
+// traceroute to google.com (142.250.191.206), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)";
+"telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)" -> "108.170.243.174 (108.170.243.174)";
+"108.170.243.174 (108.170.243.174)" -> "108.170.243.193 (108.170.243.193)";
+"108.170.243.193 (108.170.243.193)" -> "ord38s31-in-f14.1e100.net (142.250.191.206)";
+"ord38s31-in-f14.1e100.net (142.250.191.206)" -> "google.com (142.250.191.206)";
+
+// traceroute to www.vmware.com (184.84.218.46), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)";
+"telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "www.vmware.com (184.84.218.46)";
+
+
+// traceroute to facebook.com (157.240.26.35), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "173.252.67.157 (173.252.67.157)";
+"173.252.67.157 (173.252.67.157)" -> "edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35)";
+"edge-star-mini-shv-01-msp1.facebook.com (157.240.26.35)" -> "facebook.com (157.240.26.35)";
+
+// traceroute to instagram.com (157.240.26.174), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "173.252.67.161 (173.252.67.161)";
+"173.252.67.161 (173.252.67.161)" -> "instagram-p42-shv-01-msp1.fbcdn.net (157.240.26.174)";
+"instagram-p42-shv-01-msp1.fbcdn.net (157.240.26.174)" -> "instagram.com (157.240.26.174)";
+
+// traceroute to un.org (157.150.185.49), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)";
+"et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)" -> "et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)";
+"et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)" -> "193.251.142.77 (193.251.142.77)";
+"193.251.142.77 (193.251.142.77)" -> "193.251.142.77 (193.251.142.77)";
+"193.251.142.77 (193.251.142.77)" -> "un.org (157.150.185.49)";
+
+// traceroute to who.int (104.17.113.188), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "141.101.73.18 (141.101.73.18)";
+"141.101.73.18 (141.101.73.18)" -> "who.int (104.17.113.188)";
+
+// traceroute to gov.am (91.221.228.2), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)";
+"10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)" -> "10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)";
+"10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)" -> "100ge13-1.core2.chi1.he.net (184.105.223.177)";
+"100ge13-1.core2.chi1.he.net (184.105.223.177)" -> "100ge11-1.core1.nyc5.he.net (184.105.213.218)";
+"100ge11-1.core1.nyc5.he.net (184.105.213.218)" -> "100ge1-2.core1.nyc4.he.net (184.104.193.174)";
+"100ge1-2.core1.nyc4.he.net (184.104.193.174)" -> "100ge11-1.core1.nyc5.he.net (184.105.213.218)";
+"100ge11-1.core1.nyc5.he.net (184.105.213.218)" -> "ve951.core2.cph1.he.net (184.104.196.97)";
+"ve951.core2.cph1.he.net (184.104.196.97)" -> "100ge12-2.core1.sto1.he.net (184.104.194.221)";
+"100ge12-2.core1.sto1.he.net (184.104.194.221)" -> "100ge4-1.core1.tll1.he.net (184.104.192.82)";
+"100ge4-1.core1.tll1.he.net (184.104.192.82)" -> "100ge4-1.core1.tll1.he.net (184.104.192.82)";
+"100ge4-1.core1.tll1.he.net (184.104.192.82)" -> "gov.am (91.221.228.2)";
+
+// traceroute to cia.gov (184.85.175.16), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "et-5-1-5-106.cr1-min1.ip4.gtt.net (209.120.155.197)";
+"et-5-1-5-106.cr1-min1.ip4.gtt.net (209.120.155.197)" -> "ip4.gtt.net (98.124.183.18)";
+"ip4.gtt.net (98.124.183.18)" -> "ae2.latisys-ord8.netarch.akamai.com (23.207.231.207)";
+"ae2.latisys-ord8.netarch.akamai.com (23.207.231.207)" -> "cia.gov (184.85.175.16)";
+
+// traceroute to fandom.com (151.101.192.194), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "fandom.com (151.101.192.194)";
+
+
+// traceroute to microsoft.com (40.112.72.205), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "ae22-0.icr02.ch4.ntwk.msn.net (104.44.40.116)";
+"ae22-0.icr02.ch4.ntwk.msn.net (104.44.40.116)" -> "ae22-0.icr01.ch4.ntwk.msn.net (104.44.40.112)";
+"ae22-0.icr01.ch4.ntwk.msn.net (104.44.40.112)" -> "be-120-0.ibr02.ch4.ntwk.msn.net (104.44.11.22)";
+"be-120-0.ibr02.ch4.ntwk.msn.net (104.44.11.22)" -> "be-11-0.ibr02.cle30.ntwk.msn.net (104.44.29.44)";
+"be-11-0.ibr02.cle30.ntwk.msn.net (104.44.29.44)" -> "be-4-0.ibr02.sxl71.ntwk.msn.net (104.44.17.155)";
+"be-4-0.ibr02.sxl71.ntwk.msn.net (104.44.17.155)" -> "be-1-0.ibr02.dub08.ntwk.msn.net (104.44.7.242)";
+"be-1-0.ibr02.dub08.ntwk.msn.net (104.44.7.242)" -> "ae124-0.icr03.dub08.ntwk.msn.net (104.44.23.173)";
+"ae124-0.icr03.dub08.ntwk.msn.net (104.44.23.173)" -> "be-18-0.ibr01.sin30.ntwk.msn.net (104.44.28.176)";
+"be-18-0.ibr01.sin30.ntwk.msn.net (104.44.28.176)" -> "ae122-0.icr02.dub07.ntwk.msn.net (104.44.11.72)";
+"ae122-0.icr02.dub07.ntwk.msn.net (104.44.11.72)" -> "microsoft.com (40.112.72.205)";
+
+// traceroute to state.gov (34.233.79.178), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "state.gov (34.233.79.178)";
+
+// traceroute to wikimedia.org (208.80.153.224), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "wikimedia.org (208.80.153.224)";
+
+// traceroute to uwi.edu (196.2.1.162), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mai-b2-link.ip.twelve99.net (62.115.113.49)";
+"mai-b2-link.ip.twelve99.net (62.115.113.49)" -> "asurnet-ic345609-mai-b2.ip.twelve99-cust.net (62.115.176.129)";
+"asurnet-ic345609-mai-b2.ip.twelve99-cust.net (62.115.176.129)" -> "asurnet-ic339478-mai-b2.ip.twelve99-cust.net (62.115.12.17)";
+"asurnet-ic339478-mai-b2.ip.twelve99-cust.net (62.115.12.17)" -> "mai-b2-link.ip.twelve99.net (62.115.113.49)";
+"mai-b2-link.ip.twelve99.net (62.115.113.49)" -> "69.79.101.33 (69.79.101.33)";
+"69.79.101.33 (69.79.101.33)" -> "109-207-79-69-static.flowja.com (69.79.207.109)";
+"109-207-79-69-static.flowja.com (69.79.207.109)" -> "109-207-79-69-static.flowja.com (69.79.207.109)";
+"109-207-79-69-static.flowja.com (69.79.207.109)" -> "208.131.167.61 (208.131.167.61)";
+"208.131.167.61 (208.131.167.61)" -> "208.131.167.62 (208.131.167.62)";
+"208.131.167.62 (208.131.167.62)" -> "uwi.edu (196.2.1.162)";
+
+
+// traceroute to google.com (142.250.191.206), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "108.170.243.193 (108.170.243.193)";
+"108.170.243.193 (108.170.243.193)" -> "ord38s31-in-f14.1e100.net (142.250.191.206)";
+"ord38s31-in-f14.1e100.net (142.250.191.206)" -> "google.com (142.250.191.206)";
+
+// traceroute to amazon.com (54.239.28.85), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "amazon.com (54.239.28.85)";
+
+// traceroute to va.lv (85.254.89.199), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)";
+"telecomb-gr-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.175)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)";
+"sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)" -> "internet2.mx1.lon.uk.geant.net (62.40.124.44)";
+"internet2.mx1.lon.uk.geant.net (62.40.124.44)" -> "ae5.rt2.tal.ee.geant.net (62.40.98.59)";
+"ae5.rt2.tal.ee.geant.net (62.40.98.59)" -> "ae1.mx1.ham.de.geant.net (62.40.98.61)";
+"ae1.mx1.ham.de.geant.net (62.40.98.61)" -> "ae1.rt1.tal.ee.geant.net (62.40.98.16)";
+"ae1.rt1.tal.ee.geant.net (62.40.98.16)" -> "ae1.rt1.rig.lv.geant.net (62.40.98.116)";
+"ae1.rt1.rig.lv.geant.net (62.40.98.116)" -> "ae1.rt1.rig.lv.geant.net (62.40.98.116)";
+"ae1.rt1.rig.lv.geant.net (62.40.98.116)" -> "sigmanet-gw.rt1.rig.lv.geant.net (62.40.124.238)";
+"sigmanet-gw.rt1.rig.lv.geant.net (62.40.124.238)" -> "sigmanet-gw.rt1.rig.lv.geant.net (62.40.124.238)";
+"sigmanet-gw.rt1.rig.lv.geant.net (62.40.124.238)" -> "iekstikls.va.lv (85.254.89.199)";
+"iekstikls.va.lv (85.254.89.199)" -> "va.lv (85.254.89.199)";
+
+// traceroute to government.is (172.67.67.126), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "141.101.73.28 (141.101.73.28)";
+"141.101.73.28 (141.101.73.28)" -> "141.101.73.28 (141.101.73.28)";
+"141.101.73.28 (141.101.73.28)" -> "172.70.128.2 (172.70.128.2)";
+"172.70.128.2 (172.70.128.2)" -> "141.101.73.18 (141.101.73.18)";
+"141.101.73.18 (141.101.73.18)" -> "government.is (172.67.67.126)";
+
+// traceroute to loc.gov (104.16.54.16), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "141.101.73.28 (141.101.73.28)";
+"141.101.73.28 (141.101.73.28)" -> "141.101.73.18 (141.101.73.18)";
+"141.101.73.18 (141.101.73.18)" -> "loc.gov (104.16.54.16)";
+
+// traceroute to twin-cities.umn.edu (54.167.214.96), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "twin-cities.umn.edu (54.167.214.96)";
+
+// traceroute to morris.umn.edu (3.226.157.233), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "morris.umn.edu (3.226.157.233)";
+
+// traceroute to canvas.umn.edu (52.207.22.162), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "canvas.umn.edu (52.207.22.162)";
+
+// traceroute to ci.morris.mn.us (192.252.154.10), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)";
+"ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)" -> "ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)";
+"ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)" -> "jfk2-edge-03.inet.qwest.net (67.14.45.222)";
+"jfk2-edge-03.inet.qwest.net (67.14.45.222)" -> "ci.morris.mn.us (192.252.154.10)";
+
+
+// traceroute to wikipedia.org (208.80.153.224), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "wikipedia.org (208.80.153.224)";
+
+// traceroute to wikipedia.org (208.80.153.224), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "wikipedia.org (208.80.153.224)";
+
+// traceroute to wikipedia.org (208.80.153.224), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "wikipedia.org (208.80.153.224)";
+
+// traceroute to gnu.org (209.51.188.116), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "bost-b2-link.ip.twelve99.net (62.115.122.203)";
+"bost-b2-link.ip.twelve99.net (62.115.122.203)" -> "bost-b2-link.ip.twelve99.net (62.115.122.203)";
+"bost-b2-link.ip.twelve99.net (62.115.122.203)" -> "towardex-ic339872-bost-b2.ip.twelve99-cust.net (62.115.151.127)";
+"towardex-ic339872-bost-b2.ip.twelve99-cust.net (62.115.151.127)" -> "towardex-ic339872-bost-b2.ip.twelve99-cust.net (62.115.151.127)";
+"towardex-ic339872-bost-b2.ip.twelve99-cust.net (62.115.151.127)" -> "bbr01-fh-0-2-0-7.bsn05.twdx.net (198.160.62.4)";
+"bbr01-fh-0-2-0-7.bsn05.twdx.net (198.160.62.4)" -> "dcr03-fh-0-10-0-19.bsn04.twdx.net (198.160.62.203)";
+"dcr03-fh-0-10-0-19.bsn04.twdx.net (198.160.62.203)" -> "gnu.org (209.51.188.116)";
+
+// traceroute to icann.org (192.0.43.7), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)";
+"et-5-1-5-104.cr1-min1.ip4.gtt.net (208.116.156.129)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "ae37.cr4-was1.ip4.gtt.net (213.254.214.158)";
+"ae37.cr4-was1.ip4.gtt.net (213.254.214.158)" -> "ae37.cr4-was1.ip4.gtt.net (213.254.214.158)";
+"ae37.cr4-was1.ip4.gtt.net (213.254.214.158)" -> "icann.org (192.0.43.7)";
+
+
+// traceroute to yale.edu (151.101.194.133), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "yale.edu (151.101.194.133)";
+
+// traceroute to vote.gov (13.227.39.96), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)";
+"infotech-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.166)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "server-13-227-39-96.msp50.r.cloudfront.net (13.227.39.96)";
+"server-13-227-39-96.msp50.r.cloudfront.net (13.227.39.96)" -> "vote.gov (13.227.39.96)";
+
+// traceroute to yonsei.ac.kr (165.132.13.38), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "1.208.104.205 (1.208.104.205)";
+"1.208.104.205 (1.208.104.205)" -> "1.208.104.205 (1.208.104.205)";
+"1.208.104.205 (1.208.104.205)" -> "1.208.113.174 (1.208.113.174)";
+"1.208.113.174 (1.208.113.174)" -> "1.208.106.86 (1.208.106.86)";
+"1.208.106.86 (1.208.106.86)" -> "1.208.3.134 (1.208.3.134)";
+"1.208.3.134 (1.208.3.134)" -> "1.213.3.166 (1.213.3.166)";
+"1.213.3.166 (1.213.3.166)" -> "1.208.1.230 (1.208.1.230)";
+"1.208.1.230 (1.208.1.230)" -> "210.98.171.202 (210.98.171.202)";
+"210.98.171.202 (210.98.171.202)" -> "yonsei.ac.kr (165.132.13.38)";
+
+
+// traceroute to walmart.com (161.170.232.170), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "64.57.20.110 (64.57.20.110)";
+"64.57.20.110 (64.57.20.110)" -> "64.57.20.110 (64.57.20.110)";
+"64.57.20.110 (64.57.20.110)" -> "ae4.mpr2.den1.us.zip.zayo.com (64.125.24.85)";
+"ae4.mpr2.den1.us.zip.zayo.com (64.125.24.85)" -> "ae4.mpr2.den1.us.zip.zayo.com (64.125.24.85)";
+"ae4.mpr2.den1.us.zip.zayo.com (64.125.24.85)" -> "216.200.155.91.IPYX-145674-ZYO.zip.zayo.com (216.200.155.91)";
+"216.200.155.91.IPYX-145674-ZYO.zip.zayo.com (216.200.155.91)" -> "walmart.com (161.170.232.170)";
+
+
+// traceroute to vote.org (172.66.41.16), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "vote.org (172.66.41.16)";
+
+
+// traceroute to spc.noaa.gov (140.172.17.21), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "bundle-ether1.4076.core1.eqch.net.internet2.edu (162.252.70.189)";
+"bundle-ether1.4076.core1.eqch.net.internet2.edu (162.252.70.189)" -> "et-4-1-2.831.brtr.denv.nwave.noaa.gov (137.75.72.130)";
+"et-4-1-2.831.brtr.denv.nwave.noaa.gov (137.75.72.130)" -> "137.75.72.11 (137.75.72.11)";
+"137.75.72.11 (137.75.72.11)" -> "et-4-0-5.2.rtr.denv15th.nwave.noaa.gov (140.172.70.143)";
+"et-4-0-5.2.rtr.denv15th.nwave.noaa.gov (140.172.70.143)" -> "irb.3903.rtr3.denv.nwave.noaa.gov (137.75.72.12)";
+"irb.3903.rtr3.denv.nwave.noaa.gov (137.75.72.12)" -> "et-4-0-5.2.rtr.denv15th.nwave.noaa.gov (140.172.70.143)";
+"et-4-0-5.2.rtr.denv15th.nwave.noaa.gov (140.172.70.143)" -> "lo-0.1.rtr.boul.nwave.noaa.gov (140.172.112.5)";
+"lo-0.1.rtr.boul.nwave.noaa.gov (140.172.112.5)" -> "irb.715.cosw01.boul01.nwave.noaa.gov (137.75.73.131)";
+"irb.715.cosw01.boul01.nwave.noaa.gov (137.75.73.131)" -> "spc.noaa.gov (140.172.17.21)";
+
+
+// traceroute to ox.ac.uk (151.101.66.216), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "ox.ac.uk (151.101.66.216)";
+
+
+// traceroute to morristheatre.net (192.252.144.35), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "jfk2-edge-03.inet.qwest.net (67.14.45.222)";
+"jfk2-edge-03.inet.qwest.net (67.14.45.222)" -> "ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)";
+"ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)" -> "jfk2-edge-03.inet.qwest.net (67.14.45.222)";
+"jfk2-edge-03.inet.qwest.net (67.14.45.222)" -> "bst-pbrr-02.inet.qwest.net (67.14.30.150)";
+"bst-pbrr-02.inet.qwest.net (67.14.30.150)" -> "morristheatre.net (192.252.144.35)";
+
+
+// traceroute to canvas.umn.edu (52.207.22.162), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "canvas.umn.edu (52.207.22.162)";
+
+
+// traceroute to whitehouse.gov (104.113.18.91), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)";
+"telecomb-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.172)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "ae19.cr9-chi1.ip4.gtt.net (141.136.108.189)";
+"ae19.cr9-chi1.ip4.gtt.net (141.136.108.189)" -> "ae19.cr9-chi1.ip4.gtt.net (141.136.108.189)";
+"ae19.cr9-chi1.ip4.gtt.net (141.136.108.189)" -> "ae19.cr9-chi1.ip4.gtt.net (141.136.108.189)";
+"ae19.cr9-chi1.ip4.gtt.net (141.136.108.189)" -> "whitehouse.gov (104.113.18.91)";
+
+// traceroute to youtube.com (142.251.32.14), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "108.170.243.193 (108.170.243.193)";
+"108.170.243.193 (108.170.243.193)" -> "142.251.60.21 (142.251.60.21)";
+"142.251.60.21 (142.251.60.21)" -> "youtube.com (142.251.32.14)";
+
+// traceroute to twitch.tv (151.101.194.167), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "twitch.tv (151.101.194.167)";
+
+// traceroute to discord.com (162.159.135.232), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)";
+"telecomb-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.165)" -> "statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)";
+"statecob-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.214)" -> "statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)";
+"statecob-gr-01-1-hu-0-7-0-0.1.northernlights.gigapop.net (146.57.252.206)" -> "r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)";
+"r-equinix-isp-ae0-2245.wiscnet.net (216.56.50.57)" -> "141.101.73.28 (141.101.73.28)";
+"141.101.73.28 (141.101.73.28)" -> "162.159.135.232 (162.159.135.232)";
+"162.159.135.232 (162.159.135.232)" -> "discord.com (162.159.135.232)";
+
+// traceroute to amazon.com (176.32.103.205), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "amazon.com (176.32.103.205)";
+
+
+// traceroute to artisan-jp.com (1.33.191.138), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)";
+"10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)" -> "10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)";
+"10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)" -> "100ge11-2.core1.sea1.he.net (184.104.194.21)";
+"100ge11-2.core1.sea1.he.net (184.104.194.21)" -> "0-0-1-2--2025.tky-kc-acr01.sphere.ad.jp (202.239.117.17)";
+"0-0-1-2--2025.tky-kc-acr01.sphere.ad.jp (202.239.117.17)" -> "p6.kcd-arena-gw6.sphere.ad.jp (203.138.68.134)";
+"p6.kcd-arena-gw6.sphere.ad.jp (203.138.68.134)" -> "202.239.82.26 (202.239.82.26)";
+"202.239.82.26 (202.239.82.26)" -> "artisan-jp.com (1.33.191.138)";
+
+// traceroute to aari.aq (193.227.232.34), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)";
+"sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)" -> "sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)";
+"sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)" -> "nl-sar.nordu.net (109.105.97.65)";
+"nl-sar.nordu.net (109.105.97.65)" -> "nl-sar.nordu.net (109.105.97.65)";
+"nl-sar.nordu.net (109.105.97.65)" -> "de-hmb.nordu.net (109.105.97.81)";
+"de-hmb.nordu.net (109.105.97.81)" -> "ndn-gw2.runnet.ru (109.105.102.58)";
+"ndn-gw2.runnet.ru (109.105.102.58)" -> "spb-bm18-2-gw.spb.runnet.ru (194.85.40.89)";
+"spb-bm18-2-gw.spb.runnet.ru (194.85.40.89)" -> "spb-bm18-2-gw.spb.runnet.ru (194.85.40.89)";
+"spb-bm18-2-gw.spb.runnet.ru (194.85.40.89)" -> "arctic.spb.runnet.ru (194.190.255.202)";
+"arctic.spb.runnet.ru (194.190.255.202)" -> "193.227.232.252 (193.227.232.252)";
+"193.227.232.252 (193.227.232.252)" -> "193.227.232.245 (193.227.232.245)";
+"193.227.232.245 (193.227.232.245)" -> "aari.aq (193.227.232.34)";
+
+// traceroute to ea.com (184.84.219.43), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "ea.com (184.84.219.43)";
+
+
+// traceroute to tesla.com (199.66.11.62), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "chi-b23-link.ip.twelve99.net (62.115.123.243)";
+"chi-b23-link.ip.twelve99.net (62.115.123.243)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "chi-b23-link.ip.twelve99.net (62.115.123.243)";
+"chi-b23-link.ip.twelve99.net (62.115.123.243)" -> "chi-b23-link.ip.twelve99.net (62.115.123.243)";
+"chi-b23-link.ip.twelve99.net (62.115.123.243)" -> "ae120.access-a.sech-ord.netarch.akamai.com (23.57.98.249)";
+"ae120.access-a.sech-ord.netarch.akamai.com (23.57.98.249)" -> "ae121.access-a.sech-ord.netarch.akamai.com (23.57.98.251)";
+"ae121.access-a.sech-ord.netarch.akamai.com (23.57.98.251)" -> "tesla.com (199.66.11.62)";
+
+// traceroute to nyc.gov (157.188.12.160), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)";
+"telecomb-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.168)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "nyc.gov (157.188.12.160)";
+
+// traceroute to khanacademy.org (13.227.39.60), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)";
+"mtc-gr-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.171)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "khanacademy.org (13.227.39.60)";
+}

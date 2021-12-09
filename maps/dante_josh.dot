@@ -1,0 +1,65 @@
+digraph network {
+
+// traceroute to info-link.net (65.122.208.50), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.67 (100.66.15.67)";
+"100.66.15.67 (100.66.15.67)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)";
+"infotech-br-01-hu0-3-0-1-101.northernlights.gigapop.net (146.57.255.164)" -> "mini-b2-link.ip.twelve99.net (62.115.156.196)";
+"mini-b2-link.ip.twelve99.net (62.115.156.196)" -> "mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)";
+"mtc-gr-01-hu0-5-0-0-101.northernlights.gigapop.net (146.57.255.161)" -> "level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)";
+"level3-ic355312-mini-b2.ip.twelve99-cust.net (62.115.190.221)" -> "ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)";
+"ae-0-11.bar4.Minneapolis2.Level3.net (4.69.218.182)" -> "ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)";
+"ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)" -> "ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)";
+"ge-2-1-5.chi11.ip.tiscali.net (4.68.110.150)" -> "userpages.info-link.net (65.122.208.50)";
+"userpages.info-link.net (65.122.208.50)" -> "info-link.net (65.122.208.50)";
+
+// traceroute to pandora.com (208.85.40.158), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)";
+"telecomb-gr-01-hu-0-5-0-1-101.northernlights.gigapop.net (146.57.255.173)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)";
+"sdn-sw.minn-611-trcps.northernlights.gigapop.net (146.57.255.243)" -> "be-205-pe11.350ecermak.il.ibone.comcast.net (96.87.9.105)";
+"be-205-pe11.350ecermak.il.ibone.comcast.net (96.87.9.105)" -> "be-302-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.150)";
+"be-302-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.150)" -> "be-1211-cs02.1601milehigh.co.ibone.comcast.net (96.110.39.69)";
+"be-1211-cs02.1601milehigh.co.ibone.comcast.net (96.110.39.69)" -> "be-304-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.158)";
+"be-304-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.158)" -> "be-302-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.150)";
+"be-302-cr11.1601milehigh.co.ibone.comcast.net (96.110.37.150)" -> "be-301-cr14.champa.co.ibone.comcast.net (96.110.39.1)";
+"be-301-cr14.champa.co.ibone.comcast.net (96.110.39.1)" -> "be-1313-cs03.champa.co.ibone.comcast.net (96.110.37.233)";
+"be-1313-cs03.champa.co.ibone.comcast.net (96.110.37.233)" -> "be-1213-cs02.champa.co.ibone.comcast.net (96.110.37.229)";
+"be-1213-cs02.champa.co.ibone.comcast.net (96.110.37.229)" -> "be-303-cr11.sunnyvale.ca.ibone.comcast.net (96.110.39.26)";
+"be-303-cr11.sunnyvale.ca.ibone.comcast.net (96.110.39.26)" -> "be-303-cr11.sunnyvale.ca.ibone.comcast.net (96.110.39.26)";
+"be-303-cr11.sunnyvale.ca.ibone.comcast.net (96.110.39.26)" -> "be-1111-cs01.sunnyvale.ca.ibone.comcast.net (96.110.46.1)";
+"be-1111-cs01.sunnyvale.ca.ibone.comcast.net (96.110.46.1)" -> "be-1112-cr12.sunnyvale.ca.ibone.comcast.net (96.110.46.6)";
+"be-1112-cr12.sunnyvale.ca.ibone.comcast.net (96.110.46.6)" -> "be-304-cr12.9greatoaks.ca.ibone.comcast.net (96.110.37.182)";
+"be-304-cr12.9greatoaks.ca.ibone.comcast.net (96.110.37.182)" -> "be-1412-cs04.9greatoaks.ca.ibone.comcast.net (68.86.166.169)";
+"be-1412-cs04.9greatoaks.ca.ibone.comcast.net (68.86.166.169)" -> "be-2201-pe01.9greatoaks.ca.ibone.comcast.net (96.110.36.222)";
+"be-2201-pe01.9greatoaks.ca.ibone.comcast.net (96.110.36.222)" -> "pandora.com (208.85.40.158)";
+
+// traceroute to spotify.com (35.186.224.25), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.30 (172.25.0.30)";
+"172.25.0.30 (172.25.0.30)" -> "telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)";
+"telecomb-br-01-hu0-3-0-1-102.northernlights.gigapop.net (146.57.255.170)" -> "172.25.0.230 (172.25.0.230)";
+"172.25.0.230 (172.25.0.230)" -> "mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)";
+"mtc-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.163)" -> "108.170.243.225 (108.170.243.225)";
+"108.170.243.225 (108.170.243.225)" -> "216.239.47.129 (216.239.47.129)";
+"216.239.47.129 (216.239.47.129)" -> "108.170.244.1 (108.170.244.1)";
+"108.170.244.1 (108.170.244.1)" -> "25.224.186.35.bc.googleusercontent.com (35.186.224.25)";
+"25.224.186.35.bc.googleusercontent.com (35.186.224.25)" -> "spotify.com (35.186.224.25)";
+}

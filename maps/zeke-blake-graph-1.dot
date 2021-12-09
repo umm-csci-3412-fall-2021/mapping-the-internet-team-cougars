@@ -1,0 +1,55 @@
+digraph network {
+
+// traceroute to artisan-jp.com (1.33.191.138), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)";
+"mtc-gr-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.169)" -> "infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)";
+"infotech-br-01-hu0-5-0-1-101.northernlights.gigapop.net (146.57.255.160)" -> "10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)";
+"10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)" -> "10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)";
+"10gigabitethernet6-12.core1.msp1.he.net (184.105.19.9)" -> "100ge11-2.core1.sea1.he.net (184.104.194.21)";
+"100ge11-2.core1.sea1.he.net (184.104.194.21)" -> "0-0-1-2--2025.tky-kc-acr01.sphere.ad.jp (202.239.117.17)";
+"0-0-1-2--2025.tky-kc-acr01.sphere.ad.jp (202.239.117.17)" -> "p6.kcd-arena-gw6.sphere.ad.jp (203.138.68.134)";
+"p6.kcd-arena-gw6.sphere.ad.jp (203.138.68.134)" -> "202.239.82.26 (202.239.82.26)";
+"202.239.82.26 (202.239.82.26)" -> "artisan-jp.com (1.33.191.138)";
+
+// traceroute to aari.aq (193.227.232.34), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)";
+"behm-ri-2-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.197)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.126 (172.25.0.126)";
+"172.25.0.126 (172.25.0.126)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)";
+"infotech-br-01-hu0-5-0-1-102.northernlights.gigapop.net (146.57.255.162)" -> "sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)";
+"sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)" -> "sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)";
+"sdn-sw.minn-601-re.northernlights.gigapop.net (146.57.255.241)" -> "nl-sar.nordu.net (109.105.97.65)";
+"nl-sar.nordu.net (109.105.97.65)" -> "nl-sar.nordu.net (109.105.97.65)";
+"nl-sar.nordu.net (109.105.97.65)" -> "de-hmb.nordu.net (109.105.97.81)";
+"de-hmb.nordu.net (109.105.97.81)" -> "ndn-gw2.runnet.ru (109.105.102.58)";
+"ndn-gw2.runnet.ru (109.105.102.58)" -> "spb-bm18-2-gw.spb.runnet.ru (194.85.40.89)";
+"spb-bm18-2-gw.spb.runnet.ru (194.85.40.89)" -> "spb-bm18-2-gw.spb.runnet.ru (194.85.40.89)";
+"spb-bm18-2-gw.spb.runnet.ru (194.85.40.89)" -> "arctic.spb.runnet.ru (194.190.255.202)";
+"arctic.spb.runnet.ru (194.190.255.202)" -> "193.227.232.252 (193.227.232.252)";
+"193.227.232.252 (193.227.232.252)" -> "193.227.232.245 (193.227.232.245)";
+"193.227.232.245 (193.227.232.245)" -> "aari.aq (193.227.232.34)";
+
+// traceroute to ea.com (184.84.219.43), 60 hops max, 60 byte packets
+"Dungeon" -> "behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)";
+"behm-cn-01-v12.ggnet.umn.edu (146.57.33.254)" -> "behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)";
+"behm-ri-1-te-0-0-0-11-101.ggnet.umn.edu (146.57.48.195)" -> "100.66.15.69 (100.66.15.69)";
+"100.66.15.69 (100.66.15.69)" -> "172.25.1.230 (172.25.1.230)";
+"172.25.1.230 (172.25.1.230)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.0.18 (172.25.0.18)";
+"172.25.0.18 (172.25.0.18)" -> "172.25.1.66 (172.25.1.66)";
+"172.25.1.66 (172.25.1.66)" -> "telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)";
+"telecomb-br-01-hu-0-5-0-1-102.northernlights.gigapop.net (146.57.255.174)" -> "telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)";
+"telecomb-gr-01-hu0-5-0-0-102.northernlights.gigapop.net (146.57.255.167)" -> "ea.com (184.84.219.43)";
+}
