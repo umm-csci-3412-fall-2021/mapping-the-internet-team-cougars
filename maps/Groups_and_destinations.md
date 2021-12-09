@@ -21,3 +21,23 @@ We visited:
 ## Mystery, Inc.
 
 Mystery, Inc. is Joe Walbran.
+
+I visited:
+
+* www.stpaul.gov
+* www.mineapolismn.gov
+* www.nist.gov
+
+---
+
+## Erik Rauer
+
+I visited:
+
+* google.com
+* amazon.com
+* google.de
+* mn.gov
+* linuxcommand.org
+* visitberlin.de
+>>>>>>> d3ed8bf93b36a97b4f0e223b800dc599a84a3a1f
